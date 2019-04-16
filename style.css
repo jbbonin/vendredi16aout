@@ -1,3 +1,123 @@
+@font-face {
+ font-family: "AGaramondPro Italic";
+ src: url("fonts/AGaramondPro-Italic.otf");
+}
+
+@font-face {
+ font-family: "AGaramondPro Regular";
+ src: url("fonts/AGaramondPro-Regular.otf");
+}
+
+@font-face {
+ font-family: "Butler Bold";
+ src: url("fonts/Butler_Bold.otf");
+}
+
+@font-face {
+ font-family: "Santorini";
+ src: url("fonts/Santorini.otf");
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+
 h1 {
+  font-family: AGaramondPro;
+  color: rgb(60,60,60);
+  letter-spacing: 6px;
+  font-size: 55px;
+  font-stretch: 12px;
+  line-height: 60px;
+}
+
+#author {
+  font-family: AGaramondPro Italic;
+  letter-spacing: 1px;
+}
+
+h2 {
+  font-size: 250%;
+  font-family: Santorini;
+  font-weight: lighter;
+  color: white;
   text-align: center;
+  margin-top: -165px;
+}
+
+#clem {
+  margin-left: 40px;
+}
+
+#date {
+  color: white;
+  text-align: center;
+  font-family: Butler Bold;
+  margin-top: -40px;
+}
+
+#ceremonie {
+  color: rgb(60,60,60);
+  text-align: left;
+  font-family: AGaramondPro Italic;
+  margin-top: 40px;
+  font-size: 20px;
+}
+
+#mairie {
+  color: rgb(60,60,60);
+  text-align: left;
+  font-family: AGaramondPro Regular;
+  margin-top: -15px;
+  font-size: 23px;
+}
+
+#vendredi {
+  font-size: 150%;
+  font-family: Santorini;
+  font-weight: lighter;
+  color: rgb(60,60,60);
+  text-align: right;
+  margin-top: -20px;
+  margin-right: -100px;
+}
+
+.quote {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(253,246,239);
+  height: 100%;
+}
+
+.name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(29,36,52);
+  height: 100%;
+}
+
+.place {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 3px;
+  font-size: 150%;
+  font-weight: bolder;
+  background-color: rgb(253,246,239);
+  height: 100%;
+}
+
+.program {
+  background-image: url(images/Fond_Aquarelle.jpg);
+  background-position: bottom right;
+  background-size: cover;
+  height: 100%;
+}
+
+img {
+  width: 600px;
 }
